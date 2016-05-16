@@ -1,0 +1,33 @@
+﻿.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination {
+	height: 20px !important;
+}
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul#demo3
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    height: 400px !important;
+}
+
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    //border-bottom:1px dotted #555; 
+    //margin-bottom: 10px;
+}

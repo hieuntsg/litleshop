@@ -1,0 +1,32 @@
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <a href="link đến"><img src="ảnh 1.jpg" alt="" title="Điền nội dung vào đây 1" /></a>
+            <a href="link đến"><img src="ảnh 2.jpg" alt="" title="Điền nội dung vào đây 2" /></a>
+            <a href="link đến"><img src="ảnh 3.jpg" alt="" title="Điền nội dung vào đây 3" /></a>
+            <a href="link đến"><img src="ảnh 4.jpg" alt="" title="Điền nội dung vào đây 4" /></a>
+            <a href="link đến"><img src="ảnh 5.jpg" alt="" title="Điền nội dung vào đây 5" /></a>
+        </div>
+
+
+    </div>
+<style>
+.theme-default #slider, .theme-default #slider img
+{
+    margin:0;
+	padding: 0;
+    width:610px; /* Chiều rộng */
+    height:300px; /* Chiều cao */
+}
+</style>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+		animSpeed: 1000,// Tốc độ trượt ảnh, quy định 1000 = 1giây
+		pauseTime: 2000, // Tốc độ chuyển ảnh A sang ảnh B
+		startSlide: 2, // Để ảnh số mấy hiển thị đầu tiên, Ảnh số 1 để startSlide: 0
+		});
+    });
+    </script>
+<script type="text/javascript" src="/jQuery-Nivo/jquery.nivo.slider.pack.js"></script>
+<link rel="stylesheet" href="/jQuery-Nivo/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/jQuery-Nivo/themes/default.css" type="text/css" media="screen" />
